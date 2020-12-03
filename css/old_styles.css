@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i|Lato:300,300i,400,400i,700,700i');
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+}
+
+.row-content {
+    background-color: yellowgreen;
+}
+
+/* Navigation links */
+.navbar a {
+    width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+ }
+
+.navbar b  {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+}  
+
+.simple-flexbox {
+    display: flex;
+}
+
+.flexbox-justify-between {
+    justify-content: space-between;
+}
+
