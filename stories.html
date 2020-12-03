@@ -44,13 +44,123 @@
                 </li>
             </ul>
             <ul class="nav navbar-nav flex-row justify-content-center flex-nowrap">
-                <li class="nav-item"><a class="nav-link" href="#">Join</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" role="button" 
+                    data-toggle="modal" data-target="#signupModal">Join</a></li>
                 <li><span class="nav-link">|</span></li>
-                <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" role="button" 
+                    data-toggle="modal" data-target="#loginModal">Login</a></li>
             </ul>
         </div>
     </nav>
     
+    <div id="signupModal" class="modal fade right" tabindex="-1" role="dialog">
+        <div class="modal-dialog-full-width modal-dialog" role="document">
+            <div class="modal-content-full-width modal-content">
+                <div class="modal-header-full-width modal-header text-center">
+                    <h5 class="modal-title w-100">Sign up</h5>
+                    <button type="button" class="close " data-dismiss="modal">
+                        <span style="font-size: 1.3em;">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+                            <div class="col-lg-4 col-sm-3 col-xs-2"></div>
+                            <div class="col-lg-4 col-sm-6 col-xs-8">
+                                <form>
+                                    <div class="form-row">
+                                       <br>
+                                       <br>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group col-sm-1">
+                                            <span style="font-size: 1.5em;"><i class="fa fa-envelope text-secondary"></i></span>
+                                        </div>
+                                        <div class="form-group col">
+                                            <input type="email" class="form-control form-control-sm" 
+                                            id="loginEmail" placeholder="Your email"/>
+                                            <label class="sr-only" for="loginEmail">Your email</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group col-sm-1">
+                                            <span style="font-size: 2em;"><i class="fa fa-lock text-secondary"></i></span>
+                                        </div>
+                                        <div class="form-group col">
+                                            <input type="password" class="form-control form-control-sm" 
+                                            id="loginPassword" placeholder="Your password"/>
+                                            <label class="sr-only" for="loginPassword">Your password</label>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-lg-4 col-sm-3 col-xs-2"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer-full-width  modal-footer">
+                    <button type="button" class="btn btn-secondary btn-md btn-rounded" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary btn-md btn-rounded">Sign up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="loginModal" class="modal fade right" tabindex="-1" role="dialog">
+        <div class="modal-dialog-full-width modal-dialog" role="document">
+            <div class="modal-content-full-width modal-content">
+                <div class="modal-header-full-width modal-header text-center">
+                    <h5 class="modal-title w-100">Sign in</h5>
+                    <button type="button" class="close " data-dismiss="modal">
+                        <span style="font-size: 1.3em;">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+                            <div class="col-lg-4 col-sm-3 col-xs-2"></div>
+                            <div class="col-lg-4 col-sm-6 col-xs-8">
+                                <form>
+                                    <div class="form-row">
+                                       <br>
+                                       <br>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group col-sm-1">
+                                            <span style="font-size: 1.5em;"><i class="fa fa-envelope text-secondary"></i></span>
+                                        </div>
+                                        <div class="form-group col">
+                                            <input type="email" class="form-control form-control-sm" 
+                                            id="loginEmail" placeholder="Your email"/>
+                                            <label class="sr-only" for="loginEmail">Your email</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group col-sm-1">
+                                            <span style="font-size: 2em;"><i class="fa fa-lock text-secondary"></i></span>
+                                        </div>
+                                        <div class="form-group col">
+                                            <input type="password" class="form-control form-control-sm" 
+                                            id="loginPassword" placeholder="Your password"/>
+                                            <label class="sr-only" for="loginPassword">Your password</label>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-lg-4 col-sm-3 col-xs-2"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer-full-width  modal-footer">
+                    <button type="button" class="btn btn-secondary btn-md btn-rounded" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary btn-md btn-rounded">Sign in</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container-fluid">
         <div class="row d-flex justify-content-center">
             <div class="col col-sm-10">
