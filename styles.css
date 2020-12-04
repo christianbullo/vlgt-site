@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i|Lato:300,300i,400,400i,700,700i');
+
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 80%;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+}
+
+h7 {
+    font-family: "Roboto", sans-serif;
+}
+
+h8 {
+    font-family: "Roboto", sans-serif;
+}
+
+hr.styleGradient {
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #ccc, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #ccc, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #ccc, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #ccc, #f0f0f0); 
+}
+
+.text-logo-up {
+    white-space: nowrap;
+    vertical-align: bottom;
+}
+
+.text-logo-down {
+    font-size: 70%;
+    white-space: nowrap;
+    vertical-align: bottom;
+}
+
+.vertical-line {
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    height: 150px;
+}
+
+.text-color-grey {
+    color: #8c8b8b;
+}
+
+.bord {
+    border: solid;
+}
+
+.modal-dialog-full-width {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width:none !important;
+
+}
+
+.modal-content-full-width  {
+    height: auto !important;
+    min-height: 100% !important;
+    border-radius: 0 !important;
+    background-color: rgba(255, 255, 255, 0.65)
+}
+
+.modal-header-full-width  {
+    border-bottom: 1px solid #9ea2a2 !important;
+}
+
+.modal-footer-full-width  {
+    border-top: 1px solid #9ea2a2 !important;
+}
