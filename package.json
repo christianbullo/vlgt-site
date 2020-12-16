@@ -7,7 +7,7 @@
     "lite": "lite-server",
     "scss": "node-sass -o css/ css/",
     "start": "npm run watch:all",
-    "watch": "onchange \"css/*.scss\" -- npm run scss",
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
     "imagemin": "imagemin img/* -o dist/img",
